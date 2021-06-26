@@ -44,3 +44,17 @@ int main()
 }
 ```
 In gendral the input and the output library stores its output in to a internal datastructure called **buffer** . 
+---------------------
+## Buffer 
+
+Most systems take significant amount of time to write to external devices or output device , so inorder to reduce the overhead time in writing response ,buffer is introduced.
+
+When does the buffer flushed ? 
+
+There are three events in which the buffer will be flushed. 
+- when Buffer is full , it flushed automatically. 
+- The library may be asked to read from the standard input stream. 
+- When we ask to flush :sweat_smile:
+ 
+
+ 
