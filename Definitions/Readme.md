@@ -52,9 +52,17 @@ Most systems take significant amount of time to write to external devices or out
 When does the buffer flushed ? 
 
 There are three events in which the buffer will be flushed. 
-- when Buffer is full , it flushed automatically. 
-- The library may be asked to read from the standard input stream. 
-- When we ask to flush :sweat_smile:
- 
+- when Buffer is full , it is  flushed automatically. 
+- The library may be asked to read from the standard input stream.which will flush the buffer 
+- When we explicitly say so to flush the buffer
 
+std::endl ends a line and flushes the buffer. Flushing output buffer at essential times is a good habit when we run a code which might take a long time to run . 
+
+#### Buffer vs cache :
+
+A buffer is temporary storage of data that is on its way to other media or storage of data that can be modified non-sequentially before it is read sequentially. It attempts to reduce the difference between input speed and output speed. A cache also acts as a buffer, but itstores data that is expected to be read several times to reduce the need to access slower storage.
+
+Note :grey_exclamation:: If your system is low on memory, the benefits of buffering suffer. At this point, you have to find a balance between the size of a buffer and the available memory of your computer.
+
+-----------------------
  
