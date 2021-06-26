@@ -44,6 +44,7 @@ int main()
 }
 ```
 In gendral the input and the output library stores its output in to a internal datastructure called **buffer** . 
+
 ---------------------
 ## Buffer 
 
