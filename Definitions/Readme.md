@@ -1,6 +1,6 @@
 # Definitions : 
 -----------------
-##Variable: 
+## Variable: 
 A Variable is a object with name. Object is inturn a computer memory with type. We can also have objects without a name. Why Variable ?: When we supply name and type , it makes it easy for the compiler to generate machine code. 
 
 ```cpp
@@ -27,7 +27,7 @@ Basic I/O operations are carried out by the **cin** and **cout** functions from 
 
 int main()
 {
-    std::cout << "Hello, World!" // printing string to terminal<<std::endl;
+    std::cout << "Hello, World!"; // printing string to terminal<<std::endl;
 }
 
 ```
