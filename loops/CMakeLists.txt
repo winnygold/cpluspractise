@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.14)
 
-project(evenorodd LANGUAGES CXX)
+project(for_cond LANGUAGES CXX)
 
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(evenorodd
-  multiple_condition.cpp
+add_executable(for_cond
+  for_loop.cpp
 )
 
